@@ -1,9 +1,10 @@
 function setup() {
     createCanvas(600, 600);
-    background(random(255));
+    
 }
 
 function draw() {
+    background(random(255));
     fill(200, 50, 8);
     ellipse(50, 50, 20, 20);
     fill(20, 250, 8);
