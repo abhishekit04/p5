@@ -19,11 +19,13 @@ function draw() {
 function drawEllip() {
     if (mouseIsPressed) {
         fill(0);
+        background(random(255));
     } else {
         fill(203);
+        background(random(255));
     }
     ellipse(mouseX, mouseY, 80, 80);
-    background(random(255));
+    
 }
 
 
